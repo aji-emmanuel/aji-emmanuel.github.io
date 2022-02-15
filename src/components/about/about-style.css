@@ -1,0 +1,29 @@
+#about {
+  position: relative;
+  width: 90%;
+  margin: 0 2rem 4rem 2rem;
+}
+
+.about-header {
+  align-items: center;
+  width: 100%;
+}
+
+#about .about-content .about-body {
+  color: var(--black-900);
+}
+
+#about .about-text {
+  font-size: 20px;
+  text-align: center;
+}
+#about .about-text span {
+  color: #7857fe;
+  font-weight: bolder;
+}
+
+@media (max-width: 1080px) {
+  #about .about-content .about-body .about-text {
+    font-size: 17px;
+  }
+}

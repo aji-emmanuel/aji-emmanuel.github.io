@@ -1,38 +1,193 @@
-.App {
+.container {
+  width: 100%;
+  padding: 0 3rem;
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 100% !important;
+    padding: 0 3rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 40px;
+  color: var(--black-900);
+  font-weight: 700;
+  text-transform: capitalize;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title h2 span {
+  color: var(--main-color);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1080px) {
+  .effect-wrap .effect-1 {
+    display: none;
+  }
+  .section-title h2 {
+    font-size: 35px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ------scroll bar----- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 30px;
+}
+
+/* ------contact me----- */
+
+.contact .content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact .content .row2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact .content .row2 .card {
+  background: var(--black-000);
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 10px;
+}
+
+.contact .content .row2 .card .contact-icon a {
+  color: var(--main-color);
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact .content .row2 .card:hover .contact-icon {
+  transform: translateY(-10px);
+  transition: transform 0.5s ease;
+}
+
+.contact .content .row2 .card .info {
+  text-align: center;
+}
+
+.contact .content .row2 .card .info h3 a {
+  color: var(--main-color);
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.contact .content .row2 .card .info span {
+  color: #666;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+/* ------footer----- */
+
+footer {
+  color: var(--main-color);
+  font-size: 14px;
+  margin-bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+footer p {
+  margin: 5px 0;
+  color: var(--black-900);
+  text-decoration: none;
+}
+
+footer a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+footer p a span {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+/*---TOGGLE THEME-----*/
+.toggle-theme {
+  position: fixed;
+  right: 0;
+  top: calc(50% - 20px);
+  height: 40px;
+  width: 40px;
+  background-color: var(--dark-to-main-color);
+  z-index: 1200;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: var(--shadow-black-300);
+  font-size: 16px;
+  text-align: center;
+}
+
+.toggle-theme i {
+  line-height: 40px;
+}
+@media (max-width: 1080px) {
+  .navbar-toggler {
+    background-color: var(--dark-to-main-color);
+    box-shadow: var(--shadow-black-300);
+    height: 34px;
+    width: 44px;
+    padding: 0;
+    margin-right: 10px;
+    font-size: 17px;
+    color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar-nav {
+    background-color: var(--dark-to-main-color);
+    box-shadow: var(--shadow-black-300);
+  }
+
+  .navbar .nav-item {
+    margin: 0;
+    padding: 5px 15px;
+  }
+
+  .navbar.navbar-shrink .navbar-toggler,
+  .navbar.navbar-shrink .navbar-nav {
+    background-color: var(--main-color);
   }
 }
