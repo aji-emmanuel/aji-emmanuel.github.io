@@ -45,7 +45,7 @@ const Home = () => {
                             growth that is profitable, environmentally responsible and socially 
                             relevant while having the scope to develop my own skills.
                         </p>
-                        <p> Do you have one of such opportunities? <a href="#contact" style={{color:"black", fontWeight:"bolder", textDecoration:"none"}}>Contact me!</a></p>
+                        <p> Do you have one of such opportunities? <a href="#contact" style={{color:"black", fontWeight:"bolder", textDecoration:"none"}}><strong>Contact me!</strong></a></p>
                         <div className="home-btn pull-right">
                             <a download className="btn btn-1" href="Emmanuel_Ajibode_Resume.pdf"   target="_blank">Download Resume</a>
                         </div>

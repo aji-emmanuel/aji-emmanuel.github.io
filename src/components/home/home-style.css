@@ -29,13 +29,21 @@ ul {
 }
 
 /*-------Home Section-------*/
+
 .home {
   min-height: 100vh;
-  padding: 150px 0;
+  padding: 150px 0 100px;
   background-color: var(--main-to-dark-color);
-  border-radius: 0 0 0 200px;
+  border-radius: 0 0 100px 100px;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .home {
+    padding: 150px 0 50px 0;
+    border-radius: 0 0 50px 50px;
+  }
 }
 
 .home-text h4 {
@@ -71,7 +79,7 @@ ul {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
-  margin: 0;
+  margin: 0 1rem;
   font-weight: 300;
   text-align: justify;
 }

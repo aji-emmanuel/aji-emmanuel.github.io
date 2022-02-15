@@ -1,6 +1,9 @@
 import React from 'react';
 import './project-style.css';
-var pickNpay = require('../../assets/img/pickNpay.png');
+const pickNpay = require('../../assets/img/pickNpay.png');
+const hotelier = require('../../assets/img/hotelier.png');
+const onboarding = require('../../assets/img/onboarding-app.png');
+const gitFinder = require('../../assets/img/gitFinder.png');
 
 const Projects = () => {
   return (
@@ -11,12 +14,12 @@ const Projects = () => {
         </div>
         <div className="slider-box aos-init aos-animate" data-aos="fade-down">
             <div className="slider-img">
-                <img src="img/p1.png" alt="poster" />
+                <img src={hotelier} alt="poster" />
             </div>
 
             <div className="slider-details">
-                <strong>5.0 GPA Calculator</strong>
-                <p>This is a GPA Calculator i built using HTML, CSS, JavaScript and Bootstrap. You can use this app to keeptrack and calculate your GPA.This calculator had been modified and tested to serve its purpose so it gives 100% Accurate results.</p>
+                <strong>Hotelier</strong>
+                <p>This was built using ASP.NET MVC with a team of engineers. It’s a platform where managers of different hotels can register their hotels and track their overall operations. It has a sister project; a Hotel Booking Mobile App which is used by customers to browse through all the hotels registered on the platform and make choices on which hotel to book.</p>
 
                 <div className="movie-cast">
                     <a href="#"><i className="fab fa-html5"></i></a>
@@ -26,11 +29,7 @@ const Projects = () => {
                 </div>
 
                 <div className="card-btns">
-                    <a href="https://github.com/AmeerBamigbayan/GPA-Calculator" className="trailer-btn" target="_blank">
-                        <i className="fas fa-code"></i>
-                        View Code
-                    </a>
-                    <a href="gpacalculator/index.html" className="play-btn" target="_blank">
+                    <a href="https://www.hotelier.ng" className="play-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-globe"></i>
                         View Site
                     </a>
@@ -53,11 +52,11 @@ const Projects = () => {
                 </div>
 
                 <div className="card-btns">
-                    <a href="https://github.com/AmeerBamigbayan/E-Commerce-Website" className="trailer-btn" target="_blank">
+                    <a href="https://github.com/aji-emmanuel/Pick-N-Pay" className="trailer-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-code"></i>
                         View Code
                     </a>
-                    <a href="https://ecommerce-website-by-ameer.netlify.app/" className="play-btn" target="_blank">
+                    <a href="http://picknpaywebsite.herokuapp.com/" className="play-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-globe"></i>
                         View Site
                     </a>
@@ -70,11 +69,13 @@ const Projects = () => {
     
         <div className="slider-box aos-init aos-animate" data-aos="fade-down">
             <div className="slider-img">
-                <img src="img/p3.png" alt="poster" />
+                <img src={onboarding} alt="poster" />
             </div>
             <div className="slider-details">
-                <strong>Admin Dashboard</strong>
-                <p>This is a website admin dashboard where website owners/administrators can get analytics and reports of sales, pageviews, traffic and visitors on their websites</p>
+                <strong>Onboarding App</strong>
+                <p>This app is used to automate the onboarding process of new employees into an organization.
+                    It utilizes the Slack API, to automate onboarding of new employees into Slack and adding them to specific channels.
+                    It also uses Google Calendar API to invite new employees to onboarding meetings.</p>
 
                 <div className="movie-cast">
                     <a href="#"><i className="fab fa-html5"></i></a>
@@ -84,11 +85,11 @@ const Projects = () => {
                 </div>
 
                 <div className="card-btns">
-                    <a href="https://github.com/AmeerBamigbayan/AdminDashboard" className="trailer-btn" target="_blank">
+                    <a  className="trailer-btn" >
                         <i className="fas fa-code"></i>
                         View Code
                     </a>
-                    <a href="https://admin-dashboard-by-ameer.netlify.app/" className="play-btn" target="_blank">
+                    <a  className="play-btn" >
                         <i className="fas fa-globe"></i>
                         View Site
                     </a>
@@ -101,11 +102,11 @@ const Projects = () => {
 
         <div className="slider-box aos-init aos-animate" data-aos="fade-down">
             <div className="slider-img">
-                <img src="img/p4.png" alt="poster" />
+                <img src={gitFinder} alt="poster" />
             </div>
             <div className="slider-details">
-                <strong>Not Facebook</strong>
-                <p>This is more of a Facebook Clone i designed in Figma and later decided to develop. It has a sticky menu and dark mode feature.</p>
+                <strong>Git User Finder</strong>
+                <p>This was the very first app that I built while learning React, implementing Context and Reducer Hooks. It is used to search for GitHub users, using their usernames.</p>
 
                 <div className="movie-cast">
                     <a href="#"><i className="fab fa-figma"></i></a>
@@ -115,11 +116,11 @@ const Projects = () => {
                 </div>
 
                 <div className="card-btns">
-                    <a href="https://github.com/AmeerBamigbayan/NotFacebook" className="trailer-btn" target="_blank">
+                    <a href="https://github.com/aji-emmanuel/My-GitHubFinder" className="trailer-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-code"></i>
                         View Code
                     </a>
-                    <a href="https://not-facebook-by-ameer.netlify.app/" className="play-btn" target="_blank">
+                    <a href="https://mygituserfinder.netlify.app/" className="play-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-globe" target="_blank"></i>
                         View Site
                     </a>
@@ -131,7 +132,7 @@ const Projects = () => {
 
         <div className="slider-box aos-init aos-animate" data-aos="fade-down">
             <div className="slider-img">
-                <img src="img/p5.png" alt="poster" />
+                <img src="" alt="poster" />
             </div>
             <div className="slider-details">
                 <strong>PlayPal</strong>
@@ -144,11 +145,11 @@ const Projects = () => {
                 </div>
 
                 <div className="card-btns">
-                    <a href="https://dribbble.com/AmeerBamigbayan" className="trailer-btn" target="_blank">
+                    <a href="#!" className="trailer-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-mobile"></i>
-                        See Design
+                        View Code
                     </a>
-                    <a href="https://playpal-by-ameer.netlify.app/" className="play-btn" target="_blank">
+                    <a href="#!" className="play-btn" target="_blank" rel="noreferrer">
                         <i className="fas fa-globe"></i>
                         View Site
                     </a>

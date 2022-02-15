@@ -20,23 +20,6 @@
     <!-- Owl carousel jquery-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-
-
-    <!--------------------------------------------------------->
-    <!-------aos css-->
-    <link href="../src/assets/css/aos.css" rel="stylesheet" />
-    
-    <!---------shortcut icon-->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-
-    <!-----swiper-min-css-->
-    <link rel="stylesheet" type="text/css" href="../src/assets/css/swiper.min.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" />
-    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin />
-    <!------------------------------------------------------------------>
-
-
-    
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -51,60 +34,16 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Emmanuel A Portfolio</title>
+    <title>Emmanuel.A Portfolio</title>
     <meta name="description"
-      content=" Emmanuel Ajibode portfolio site. It was built with react. " />
+      content=" Emmanuel Ajibode's portfolio site. It was built using react. " />
     <meta name="keywords"
-      content=" software developer, react, C# developer, fullstack developer, .Net developer" />
+      content="software developer, react, C# developer, fullstack developer, .Net developer, portfolio" />
 
   </head>
   <body  className="dark" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
     <div id="root"></div>
-
-
-    <!-------------Scrollbar jquery-->
-    <script data-cfasync="false" src="../src/assets/js/email-decode.min.js"></script>
-    <script src="../src/assets/js/jquery-3.4.1.js"></script>
-    <script type="text/javascript">
-      $(window).scroll(function () {
-        var scroll = $(window).scrollTop(),
-          dh = $(document).height(),
-          wh = $(window).height();
-        scrollPercent = (scroll / (dh - wh)) * 100;
-        $('#progressbar').css('height', scrollPercent + '%')
-      })
-    </script>
-    <!-------------Scrollbar jquery end-->
-
-    <!----------swiper-min-js-->
-    <script type="text/javascript" src="../src/assets/js/swiper.min.js"></script>
-    
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-    </script>
-
-
-    <script src="../src/assets/js/aos.min.js"></script>
-    <script>
-      AOS.init();
-    </script>
     
   </body>
 </html>
