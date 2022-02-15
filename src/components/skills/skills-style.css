@@ -18,6 +18,10 @@
   background-color: var(--main-color);
 }
 
+.pb {
+  margin-bottom: 50px;
+}
+
 /*-------Features Section-------*/
 .features .feature-item {
   box-shadow: var(--shadow-black-100);

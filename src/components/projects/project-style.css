@@ -175,10 +175,6 @@
     font-size: 0.8rem;
   }
 
-  #slider-container {
-    margin-top: -100px;
-  }
-
   .slider-box {
     flex-direction: column;
     margin-bottom: 50px;

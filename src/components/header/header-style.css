@@ -1,9 +1,15 @@
 /*-------header -------*/
 
 .navbar {
-  background-color: transparent;
-  padding: 20px 0 !important;
+  background-color: var(--main-color);
+  box-shadow: var(--shadow-black-300);
+  padding: 5px 0 !important;
   transition: all 0.5s ease;
+}
+
+.navbar-nav {
+  box-shadow: var(--shadow-black-300);
+  width: 100vw;
 }
 
 .navbar.navbar-shrink {
@@ -16,7 +22,6 @@
 }
 
 .navbar .navbar-brand {
-  width: 3rem;
   color: #fff;
   font-weight: 500;
   text-transform: capitalize;
@@ -25,8 +30,10 @@
 }
 
 .navbar .navbar-brand img {
-  width: 200px;
-  height: 40px;
+  width: 50vw;
+  max-width: 200px;
+  height: 3rem;
+  margin-top: -1rem;
   margin-left: -1rem;
 }
 
@@ -49,7 +56,7 @@
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 400;
-  padding: 5px 0;
+  padding: 10px 0 10px 15px;
   position: relative;
 }
 
@@ -102,7 +109,6 @@
 
 @media (max-width: 1080px) {
   .navbar-toggler {
-    background-color: var(--dark-to-main-color);
     box-shadow: var(--shadow-black-300);
     height: 34px;
     width: 44px;
@@ -110,11 +116,6 @@
     margin-right: 10px;
     font-size: 17px;
     color: #ffffff;
-  }
-
-  .navbar-nav {
-    background-color: var(--dark-to-main-color);
-    box-shadow: var(--shadow-black-300);
   }
 
   .navbar .nav-item {
@@ -125,5 +126,13 @@
   .navbar.navbar-shrink .navbar-toggler,
   .navbar.navbar-shrink .navbar-nav {
     background-color: var(--main-color);
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+    width: fit-content;
+    margin-left: auto;
   }
 }

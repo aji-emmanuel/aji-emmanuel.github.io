@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Contact = () => {
 
+    useEffect(()=>{
+        AOS.init({
+            duration : 1000
+        });
+    }, []);
+
     return (
-        <section className="contact" id="contact">
+        <section className="contact" id="contact" data-aos="fade-up">
             <div className="section-title">
                 <h2>Contact <span>Me</span></h2>
             </div>
@@ -82,14 +90,15 @@ const Contact = () => {
                         </div>
                         <div className="info">
                             <h3><a href="https://t.me/AjiEmmanuel" target="_blank" rel="noreferrer">Telegram</a></h3>
-                            <span>AjiEmmanuel</span>
+                            <span>@Aji_Emilo</span>
                         </div>
                     </div>
 
                 </div>
             </div>
+            <hr />
         </section>
-  );
+    );
 };
 
 export default Contact;

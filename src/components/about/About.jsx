@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './about-style.css';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const About = () => {
+    
+    useEffect(()=>{
+        AOS.init({
+            duration : 1000
+        });
+    }, []);
 
   return (
-    <section id="about" data-scroll-index="2">
+    <section id="about" className='section-padding' data-scroll-index="2" data-aos="fade-up">
        
         <div className="about-header">
             <div className="section-title">
@@ -18,7 +26,7 @@ const About = () => {
                     A Fullstack developer from Nigeria🌍. <br/><br/>
                     I’m an Endless seeker of Knowledge🧠. I speak, read and write in English.
                     <br />
-                    I’m constantly learning Web technologies and currently playing around with ReactJS.<br/><br />
+                    I’m constantly learning Web technologies and currently playing around with React Native.<br/><br />
                     When I'm not tapping the keys on my laptop,
                     <br/>
                     you'll find me playing indoor games such as 
@@ -36,6 +44,7 @@ const About = () => {
                 </p>
             
         </div>
+        <hr />
     </section>
   );
 };
