@@ -1,40 +1,9 @@
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-ul {
-  list-style: none;
-}
-
-.btn-1 {
-  background-color: #fff;
-  padding: 12px 30px;
-  border: none;
-  border-radius: 30px;
-  color: var(--main-color);
-  font-size: 16px;
-  text-transform: capitalize;
-  transition: all 0.5s ease;
-  box-shadow: var(--shadow-black-300);
-  font-weight: 500;
-}
-
-.btn-1:focus {
-  box-shadow: var(--shadow-black-300);
-}
-.btn-1:hover {
-  color: #fff;
-  background-color: var(--main-color);
-}
-
-/*-------Home Section-------*/
-
 .home {
   min-height: 100vh;
   padding: 150px 0 100px;
   background-color: var(--main-to-dark-color);
   border-radius: 0 0 100px 100px;
+  border: 1px solid #fff;
   position: relative;
   z-index: 1;
 }
@@ -44,6 +13,10 @@ ul {
     padding: 150px 0 50px 0;
     border-radius: 0 0 50px 50px;
   }
+}
+
+.home-text {
+  margin-top: 50px;
 }
 
 .home-text h4 {
@@ -211,7 +184,7 @@ ul {
 
 .effect-wrap .effect-1 {
   left: 50%;
-  top: 70%;
+  top: 80%;
   font-size: 25px;
   color: var(--color-2);
   animation: spin_01 5s linear infinite;

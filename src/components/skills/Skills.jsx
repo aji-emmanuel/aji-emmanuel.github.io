@@ -2,9 +2,7 @@ import React, { useEffect } from 'react';
 import './skills-style.css';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import OwlCarousel from 'react-owl-carousel';  
-import 'owl.carousel/dist/assets/owl.carousel.css';  
-import 'owl.carousel/dist/assets/owl.theme.default.css';  
+import Slider from "react-slick";
 
 const Skills = () => {
 
@@ -14,20 +12,30 @@ const Skills = () => {
         });
     }, []);
 
-    const carouselOptions = {
-        loop: true,
-        rewind: true,
-        dotsEach: true,
-        autoplay: true,
-        animateOut: true,
-        mouseDrag: true,
-        touchDrag: true,
-        smartSpeed: 1000,
-        responsive:{
-                    0:{ items:1, margin: 2},
-                    450:{ items:2, margin: 4 },
-                    1000:{ items:3, margin: 8}
+    const settings = {
+        dots: true,
+        infinite: true,
+        autoplay:true,
+        speed: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        swipeToSlide: true,
+        pauseOnHover: true,
+        pauseOnFocus: true,
+        responsive: [
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1
                 }
+            },
+            {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 2
+                }
+            }
+        ]
     };
 
   return (
@@ -41,8 +49,9 @@ const Skills = () => {
                 </div>
             </div>
             <div className="row">
-                <OwlCarousel className="owl-carousel features-carousel" {...carouselOptions} >
-                    <div className="feature-item">
+               
+                <Slider {...settings}>
+                     <div className="feature-item">
                         <div className="icon">
                             <i className="fas fa-code"></i>
                         </div>
@@ -89,7 +98,7 @@ const Skills = () => {
                             for rapid deployment,<br /> while ensuring scalability and flexibility.
                         </p>
                     </div>
-                </OwlCarousel>
+                </Slider>
             </div>
         </div>
         <hr />

@@ -1,0 +1,55 @@
+.contact .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.contact .content .row2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contact .content .row2 .card {
+  background: var(--black-000);
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 10px;
+}
+
+.contact .content .row2 .card .contact-icon a {
+  color: var(--main-color);
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact .content .row2 .card:hover .contact-icon {
+  transform: translateY(-10px);
+  transition: transform 0.5s ease;
+}
+
+.contact .content .row2 .card .info {
+  text-align: center;
+}
+
+.contact .content .row2 .card .info h3 a {
+  color: var(--main-color);
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.contact .content .row2 .card .info span {
+  color: #666;
+  font-weight: 500;
+  font-size: 0.8em;
+}

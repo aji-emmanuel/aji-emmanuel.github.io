@@ -6,6 +6,9 @@
   padding: 5px 0 !important;
   transition: all 0.5s ease;
 }
+.navbar.dark {
+  background-color: var(--bg-dark) !important;
+}
 
 .navbar-nav {
   box-shadow: var(--shadow-black-300);

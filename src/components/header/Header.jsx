@@ -1,10 +1,11 @@
 import React from 'react';
 import './header-style.css';
-var logo = require('../../assets/img/logo.png');
+const logo = require('../../assets/img/logo.png');
 
-function Header() {
+function Header({isDark}) {
+    
   return (
-    <nav className="navbar navbar-expand-md fixed-top">
+    <nav className={isDark? "navbar dark navbar-expand-md fixed-top" : "navbar navbar-expand-md fixed-top"}>
         <a className="navbar-brand" href="#home">
             <img src={logo} alt='..emmanuel' />
         </a>

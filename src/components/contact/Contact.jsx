@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './contact-style.css';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -20,13 +21,13 @@ const Contact = () => {
 
                     <div className="card">
                         <div className="contact-icon">
-                            <a href="#!" target="_blank" rel="noreferrer">
+                            <a href="#!" onClick={()=>window.location="mailto:emma.ajibode@gmail.com"} >
                                 <i className="fas fa-envelope"></i>
                             </a>
                         </div>
                         <div className="info">
-                            <h3><a href="#!" target="_blank" rel="noreferrer">Email</a></h3>
-                            <span><a href="#!" className="__cf_email__" data-cfemail="3958545c5c4b5d58545055565558795e54585055175a5654">[email&#160;protected]</a></span>
+                            <h3><a href="#!" onClick={()=>window.location="mailto:emma.ajibode@gmail.com"}>Email</a></h3>
+                            <span><a href="#!" onClick={()=>window.location="mailto:emma.ajibode@gmail.com"} className="__cf_email__">[email&#160;protected]</a></span>
                         </div>
                     </div>
 

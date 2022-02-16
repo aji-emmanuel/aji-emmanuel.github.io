@@ -60,17 +60,16 @@
   margin: 10px 0px 10px 0px;
 }
 
-.movie-cast {
+.techs {
   align-items: center;
 }
 
-.movie-cast a {
+.techs i {
   color: #fff;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
   font-size: 30px;
+  padding-right: 0.5rem;
 }
 
 .card-btns {

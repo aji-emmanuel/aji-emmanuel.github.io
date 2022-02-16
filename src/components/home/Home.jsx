@@ -1,21 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './home-style.css';
-import Typed from "typed.js";
+import Typed from 'react-typed';
 
-var mainImage = require('../../assets/img/aji-emmanuel-main.jpg');
+const mainImage = require('../../assets/img/aji-emmanuel-main.jpg');
 
 const Home = () => {
-
-    const textRef = useRef();
-
-    useEffect(()=>{
-        new Typed(textRef.current, {
-            strings: ["My name is Emmanuel Ajibode.", "I'm a fullstack developer!"],
-            typeSpeed: 100,
-            backSpeed: 70,
-            loop: true
-        });
-    });
 
   return (
     <section className="home d-flex align-items-center" id="home" data-scroll-index="0">
@@ -36,7 +25,16 @@ const Home = () => {
 
                 <div className="col-md-7">
                     <div className="home-text">
-                        <h4><span className="text" ref={textRef}></span></h4>
+                        <h4>
+                            <span className="text">
+                                <Typed
+                                    strings={["My name is Emmanuel Ajibode.", "I'm a fullstack developer!"]}
+                                    typeSpeed={100}
+                                    backSpeed={70}
+                                    loop
+                                />
+                            </span>
+                        </h4>
                         <p>
                             I'm a Fullstack Developer from Nigeria proficient mainly in C#, .NET and ReactJS.
                             I'm a curious learner and a creative team player, always seeking 
