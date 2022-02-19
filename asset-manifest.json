@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0dac55c0.css",
-    "main.js": "/portfolio/static/js/main.6f5f0c56.js",
+    "main.css": "/portfolio/static/css/main.b209877b.css",
+    "main.js": "/portfolio/static/js/main.25b5c54c.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/pickNpay.png": "/portfolio/static/media/pickNpay.4f40858402368dc03259.png",
+    "static/media/bookly.png": "/portfolio/static/media/bookly.3a9e19cbb062c8d87ae3.png",
     "static/media/aji-emmanuel-main.jpg": "/portfolio/static/media/aji-emmanuel-main.6b59bbf239c71c53522d.jpg",
     "static/media/hotelier.png": "/portfolio/static/media/hotelier.3aeb8819eb0aa8e285c7.png",
     "static/media/gitFinder.png": "/portfolio/static/media/gitFinder.efc6e65150577c0f2710.png",
     "static/media/onboarding-app.png": "/portfolio/static/media/onboarding-app.60d9e186947044171812.png",
     "static/media/logo.png": "/portfolio/static/media/logo.570826c6dba9b1bb4547.png",
     "index.html": "/portfolio/index.html",
-    "main.0dac55c0.css.map": "/portfolio/static/css/main.0dac55c0.css.map",
-    "main.6f5f0c56.js.map": "/portfolio/static/js/main.6f5f0c56.js.map",
+    "main.b209877b.css.map": "/portfolio/static/css/main.b209877b.css.map",
+    "main.25b5c54c.js.map": "/portfolio/static/js/main.25b5c54c.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dac55c0.css",
-    "static/js/main.6f5f0c56.js"
+    "static/css/main.b209877b.css",
+    "static/js/main.25b5c54c.js"
   ]
 }
