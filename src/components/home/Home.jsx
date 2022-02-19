@@ -36,17 +36,14 @@ const Home = () => {
                             </span>
                         </h4>
                         <p>
-                            I'm a Fullstack Developer from Nigeria proficient mainly in C#, .NET and ReactJS.
+                            I'm a Fullstack Developer from Nigeria, proficient mainly in C#, .NET and ReactJS.
                             I'm a curious learner and a creative team player, always seeking 
                             for opportunities where I can utilise my understanding of programming 
                             and software development to efficiently deliver sustainable economic 
                             growth that is profitable, environmentally responsible and socially 
                             relevant while having the scope to develop my own skills.
                         </p>
-                        <p> Do you have one of such opportunities? <a href="#contact" style={{color:"black", fontWeight:"bolder", textDecoration:"none"}}><strong>Contact me!</strong></a></p>
-                        <div className="home-btn pull-right">
-                            <a download className="btn btn-1" href="Emmanuel_Ajibode_Resume.pdf"   target="_blank">Download Resume</a>
-                        </div>
+                        <p> Do you have one of such opportunities? <a href="#contact" id="home-contact">Contact&nbsp;me!</a></p>
                     </div>
                 </div>
 

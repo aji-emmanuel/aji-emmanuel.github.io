@@ -27,7 +27,7 @@ const Contact = () => {
                         </div>
                         <div className="info">
                             <h3><a href="#!" onClick={()=>window.location="mailto:emma.ajibode@gmail.com"}>Email</a></h3>
-                            <span><a href="#!" onClick={()=>window.location="mailto:emma.ajibode@gmail.com"} className="__cf_email__">[email&#160;protected]</a></span>
+                            <span>emma.ajibode@ gmail.com</span>
                         </div>
                     </div>
 

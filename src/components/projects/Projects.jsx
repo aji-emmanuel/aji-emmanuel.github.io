@@ -6,6 +6,7 @@ const pickNpay = require('../../assets/img/pickNpay.png');
 const hotelier = require('../../assets/img/hotelier.png');
 const onboarding = require('../../assets/img/onboarding-app.png');
 const gitFinder = require('../../assets/img/gitFinder.png');
+const bookly = require('../../assets/img/bookly.png');
 
 const Projects = () => {
 
@@ -31,10 +32,8 @@ const Projects = () => {
                     <p>This was built using ASP.NET MVC with a team of engineers. It’s a platform where managers of different hotels can register their hotels and track their overall operations. It has a sister project; a Hotel Booking Mobile App which is used by customers to browse through all the hotels registered on the platform and make choices on which hotel to book.</p>
 
                     <div className="techs">
-                        <i className="fab fa-html5"></i>
+                        <i className="fa-brands fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-js"></i>
-                        <i className="fab fa-bootstrap"></i>
                     </div>
 
                     <div className="card-btns">
@@ -59,8 +58,6 @@ const Projects = () => {
                     <div className="techs">
                         <i className="fab fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-js"></i>
-                        <i className="fab fa-bootstrap"></i>
                     </div>
 
                     <div className="card-btns">
@@ -87,14 +84,14 @@ const Projects = () => {
                         It also uses Google Calendar API to invite new employees to onboarding meetings.</p>
 
                     <div className="techs">
-                        <i className="fab fa-html5"></i>
+                        <i className="fa-brands fa-react"></i>
+                        <i className="fa-brands fa-js"></i>
+                        <i className="fa-brands fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-js"></i>
-                        
                     </div>
 
                     <div className="card-btns">
-                        <a  className="trailer-btn" >
+                        <a className="trailer-btn" >
                             <i className="fas fa-code"></i>
                             View Code
                         </a>
@@ -116,10 +113,10 @@ const Projects = () => {
                     <p>This was the very first app that I built while learning React, implementing Context and Reducer Hooks. It is used to search for GitHub users, using their usernames.</p>
 
                     <div className="techs">
-                        <i className="fab fa-figma"></i>
-                        <i className="fab fa-html5"></i>
+                        <i className="fa-brands fa-react"></i>
+                        <i className="fa-brands fa-js"></i>
+                        <i className="fa-brands fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
-                        <i className="fab fa-js"></i>
                     </div>
 
                     <div className="card-btns">
@@ -137,11 +134,14 @@ const Projects = () => {
 
             <div className="slider-box aos-init aos-animate" data-aos="fade-right">
                 <div className="slider-img">
-                    <img src="" alt="poster" />
+                    <img src={bookly} alt="poster" />
                 </div>
                 <div className="slider-details">
-                    <strong>PlayPal</strong>
-                    <p>This is one of the first set of projects i did while learning how to code.Obviously, It's a Music streaming website. i built it with HTML, CSS and JavaScript. The background picture was designed by me in Adobe Photoshop.</p>
+                    <strong>Bookly</strong>
+                    <p>Bookly is an online book library built using ASP.NET framework. 
+                        The RESTful APi was built with ASP.NET Web Api and the User Facing App was built using ASP.NET MVC.
+                        <br></br>
+                        On Bookly, customers can read, review and rate a book after successful registration on the platform.</p>
 
                     <div className="techs">
                         <i className="fab fa-html5"></i>
@@ -150,11 +150,11 @@ const Projects = () => {
                     </div>
 
                     <div className="card-btns">
-                        <a href="#!" className="trailer-btn" target="_blank" rel="noreferrer">
+                        <a className="trailer-btn" target="_blank" rel="noreferrer">
                             <i className="fas fa-mobile"></i>
                             View Code
                         </a>
-                        <a href="#!" className="play-btn" target="_blank" rel="noreferrer">
+                        <a className="play-btn" target="_blank" rel="noreferrer">
                             <i className="fas fa-globe"></i>
                             View Site
                         </a>

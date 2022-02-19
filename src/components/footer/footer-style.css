@@ -1,7 +1,7 @@
 /* ------footer----- */
 
 footer {
-  color: #7857fe;
+  color: var(--main-color);
   font-size: 14px;
   margin-bottom: 30px;
   left: 0;
@@ -19,11 +19,11 @@ footer p {
 }
 
 footer a {
-  color: #7857fe;
+  color: var(--main-color);
   text-decoration: none;
 }
 
 footer p a span {
-  color: #7857fe;
+  color: var(--main-color);
   text-decoration: none;
 }

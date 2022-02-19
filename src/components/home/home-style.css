@@ -18,6 +18,11 @@
 .home-text {
   margin-top: 50px;
 }
+@media (min-width: 770px) {
+  .home-text {
+    margin-top: 10px;
+  }
+}
 
 .home-text h4 {
   font-size: 45px;
@@ -48,6 +53,13 @@
     margin: 0 0 20px;
   }
 }
+
+@media (max-width: 450px) {
+  .home-text h4 .text {
+    font-size: 1.1rem;
+  }
+}
+
 .home-text p {
   font-size: 18px;
   line-height: 28px;
@@ -55,6 +67,13 @@
   margin: 0 1rem;
   font-weight: 300;
   text-align: justify;
+}
+#home-contact {
+  color: var(--blue-black);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-left: 5px;
 }
 
 .home .home-btn {
@@ -184,7 +203,7 @@
 
 .effect-wrap .effect-1 {
   left: 50%;
-  top: 80%;
+  top: 85%;
   font-size: 25px;
   color: var(--color-2);
   animation: spin_01 5s linear infinite;

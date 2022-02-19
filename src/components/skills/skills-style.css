@@ -1,4 +1,7 @@
 /*-------Slick carousel Section-------*/
+.row {
+  padding: 0 1rem;
+}
 .slick-dots li button:before {
   height: 6px;
   width: 24px;
@@ -20,7 +23,7 @@
 /*-------Features Section-------*/
 .features .feature-item {
   box-shadow: var(--shadow-black-100);
-  margin: 25px 0;
+  margin: 25px 5px;
   padding: 3rem;
   height: 20rem;
   border-radius: 15px;
@@ -28,6 +31,11 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+.features .feature-item:hover,
+.features .feature-item:active {
+  transform: scale(1.01);
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
 }
 
 .features .feature-item::before,

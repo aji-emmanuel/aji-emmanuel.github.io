@@ -20,6 +20,8 @@ main.dark {
   --black-alpha-100: rgba(255, 255, 255, 0.05);
   --black-900: #ffffff;
   --black-400: #bbbbbb;
+  --blue-black: var(--main-color);
+  --blue-white: var(--main-color);
 }
 
 .container {
@@ -41,6 +43,11 @@ img {
 
 ul {
   list-style: none;
+}
+
+hr {
+  height: 2px !important;
+  color: var(--black-900) !important;
 }
 
 .section-padding {

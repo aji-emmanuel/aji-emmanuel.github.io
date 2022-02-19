@@ -15,15 +15,31 @@
 
 .contact .content .row2 .card {
   background: var(--black-000);
-  width: 250px;
+  min-width: 9rem;
+  width: 30vw;
+  max-width: 250px;
   margin: 20px;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: var(--shadow-black-100);
   border-radius: 10px;
+  box-shadow: 0 5px 2px 0 rgb(0 0 0 / 25%);
+  transition: transform 300ms;
+}
+.contact .content .row2 .card:hover,
+.contact .content .row2 .card:focus,
+.contact .content .row2 .card:active {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+}
+
+@media (max-width: 870px) {
+  .contact .content .row2 .card {
+    width: 30vw;
+    margin: 0.5rem;
+  }
 }
 
 .contact .content .row2 .card .contact-icon a {

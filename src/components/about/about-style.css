@@ -1,6 +1,9 @@
 #about {
   position: relative;
   width: 100%;
+  background-color: var(--main-to-dark-color);
+  padding-top: 80px;
+  margin-bottom: 80px;
 }
 
 .about-header {
@@ -9,7 +12,7 @@
 }
 
 #about .about-body {
-  color: var(--black-900);
+  color: #fff;
   margin-bottom: 50px;
 }
 
@@ -19,8 +22,11 @@
   margin: 0 2rem;
 }
 #about .about-text span {
-  color: #7857fe;
+  color: var(--blue-black);
   font-weight: bolder;
+}
+.about-header .section-title span {
+  color: var(--blue-white);
 }
 
 @media (max-width: 1080px) {
