@@ -55,15 +55,15 @@ const Skills = () => {
                         <div className="icon">
                             <i className="fas fa-code"></i>
                         </div>
-                        <h3>Backend Development</h3>
-                        <p>Proficiency in C#, .NET and JavaScript in building systems that are reliable, maintainable, and scalable.</p>
+                        <h3>Rest API</h3>
+                        <p>Solid experience with C#, .NET, .NET Core and JavaScript in building Restful APIs that are reliable, maintainable, and scalable.</p>
                     </div>
                      <div className="feature-item">
                         <div className="icon">
-                            <i className="fas fa-code"></i>
+                            <i className="fa-solid fa-tv"></i>
                         </div>
                         <h3>Frontend Development</h3>
-                        <p>Proficiency in HTML, CSS, Bootstrap and JavaScript for rapid prototyping and ability to execute all visual design stages from concept to final hand-off.</p>
+                        <p>Proficiency in ReactJs, HTML, CSS, Bootstrap and JQuery in developing dynamic, intuitive and responsive user interfaces.</p>
                     </div>
                     <div className="feature-item">
                         <div className="icon">
@@ -74,28 +74,54 @@ const Skills = () => {
                     </div>
                     <div className="feature-item">
                         <div className="icon">
-                            <i className="fas fa-pen-nib"></i>
+                            <i className="fa-brands fa-git-square"></i>
                         </div>
-                        <h3>Graphic Design</h3>
-                        <p>Demonstrable graphic design skills with a strong portfolio and Proficiency in Figma, Photoshop, XD & other visual design/wire-framing tools. 
+                        <h3>Source Control</h3>
+                        <p>Proficient in tracking and managing changes to source code using git and remote repositories such as GitHub, BitBucket and GitLab.
                         </p>
                     </div>
                     <div className="feature-item">
-                        <div className="icon">
-                            <i className="fa-brands fa-git-square"></i>
-                        </div>
-                        <h3>CI/CD</h3>
-                        <p>Proficient <br />in continous integration and continous deployment of applications, 
-                            <br />using Git, GitHub Actions and workflows.
-                        </p>
-                    </div>
-                     <div className="feature-item">
                         <div className="icon">
                             <i className="fa-brands fa-docker"></i>
                         </div>
                         <h3>Docker</h3>
                         <p>Solid experience <br />in containerizing applications using docker
                             for rapid deployment,<br /> while ensuring scalability and flexibility.
+                        </p>
+                    </div>
+                    <div className="feature-item">
+                        <div className="icon">
+                            <i className="fa-brands fa-aws"></i>
+                        </div>
+                        <h3>AWS</h3>
+                        <p>Strong understanding of AWS Cloud Technology.
+                        </p>
+                    </div>
+                    <div className="feature-item">
+                        <div className="icon">
+                            <i className="fa-solid fa-bug"></i>
+                        </div>
+                        <h3>Unit Testing</h3>
+                        <p>In-depth experience in <br /> using testing frameworks such as NUnit and XUnit
+                                <br /> in identify bugs early in the development process.
+                        </p>
+                    </div>
+                    <div className="feature-item">
+                        <div className="icon">
+                            <i className="fa-solid fa-database"></i>
+                        </div>
+                        <h3>SQL/NoSQL</h3>
+                        <p>Solid experience <br /> in using relational databases such as SQLServer, MySQL, PostgreSQL,
+                            <br /> and non-relational databases such as MongoDb.
+                        </p>
+                    </div>
+                    <div className="feature-item">
+                        <div className="icon">
+                            <i className="fa-regular fa-file"></i>
+                        </div>
+                        <h3>API Documentation</h3>
+                        <p>Proficiency in using <br /> API testing tools such as Postman and swagger in 
+                            <br /> testing, sharing, and documenting APIs.
                         </p>
                     </div>
                 </Slider>

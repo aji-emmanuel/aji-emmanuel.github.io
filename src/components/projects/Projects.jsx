@@ -17,7 +17,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <section className="slider-container" id="projects" data-scroll-index="3" data-aos="fade-up">
+        <section className="slider-container" id="projects" data-aos="fade-up">
 
             <div className="section-title">
                 <h2>Selected <span>Projects</span></h2>
@@ -29,8 +29,8 @@ const Projects = () => {
                 </div>
                 <div className="slider-details">
                     <strong>Hotelier</strong>
-                    <p>This was built using ASP.NET MVC with a team of engineers. It’s a platform where managers of different hotels can register their hotels and track their overall operations. It has a sister project; a Hotel Booking Mobile App which is used by customers to browse through all the hotels registered on the platform and make choices on which hotel to book.</p>
-
+                    <p>This was built using ASP.NET Web API for the backend application and ASP.NET MVC for the client facing application. It’s a platform where managers of different hotels can register their hotels and track their overall operations. Registered customers can also browse through all the hotels registered on the platform and make choices on which hotel to book.</p>
+                    <p><b>Technologies Used: </b>C#, ASP.NET, Entity Framework Core, SQLServer, Serilog, XUNit, JWT, Swagger, JQuery, Bootstrap, Paystack</p>
                     <div className="techs">
                         <i className="fa-brands fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
@@ -54,7 +54,7 @@ const Projects = () => {
                     <p>An e-commerce application built using Asp.Net MVC. 
                         It is a web app for shopping where users can create accounts, login and logout, 
                         browse through different products from different categories, add to cart and checkout.</p>
-
+                    <p><b>Technologies Used: </b>C#, ASP.NET, Blazor, Entity Framework Core, Webhook, SQLite, JQuery, Bootstrap, Flutter Wave</p>
                     <div className="techs">
                         <i className="fab fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
@@ -65,7 +65,7 @@ const Projects = () => {
                             <i className="fas fa-code"></i>
                             View Code
                         </a>
-                        <a href="http://picknpaywebsite.herokuapp.com/" className="play-btn" target="_blank" rel="noreferrer">
+                        <a href="https://picknpay.onrender.com" className="play-btn" target="_blank" rel="noreferrer">
                             <i className="fas fa-globe"></i>
                             View Site
                         </a>
@@ -82,7 +82,7 @@ const Projects = () => {
                     <p>This is a frontend app used to automate the onboarding process of new employees into an organization.
                         It utilizes the Slack API, to automate onboarding of new employees into Slack and adding them to specific channels.
                         It also uses Google Calendar API to invite new employees to onboarding meetings.</p>
-
+                    <p><b>Technologies Used: </b>ReactJs, Redux Toolkit, Axios, Bootstrap, C#, ASP.NET, Entity Framework Core, SQLServer, Swagger</p>
                     <div className="techs">
                         <i className="fa-brands fa-react"></i>
                         <i className="fa-brands fa-js"></i>
@@ -95,7 +95,7 @@ const Projects = () => {
                             <i className="fas fa-code"></i>
                             View Code
                         </a>
-                        <a  className="play-btn" >
+                        <a  className="play-btn" href='https://apthr.netlify.app/' target='_blank' rel="noreferrer">
                             <i className="fas fa-globe"></i>
                             View Site
                         </a>
@@ -111,7 +111,7 @@ const Projects = () => {
                 <div className="slider-details">
                     <strong>Git User Finder</strong>
                     <p>This was the very first app that I built while learning React, implementing Context and Reducer Hooks. It is used to search for GitHub users, using their usernames.</p>
-
+                    <p><b>Technologies Used: </b>ReactJs, Axios, Context API, Bootstrap</p>
                     <div className="techs">
                         <i className="fa-brands fa-react"></i>
                         <i className="fa-brands fa-js"></i>
@@ -142,7 +142,7 @@ const Projects = () => {
                         The RESTful APi was built with ASP.NET Web Api and the User Facing App was built using ASP.NET MVC.
                         <br></br>
                         On Bookly, customers can read, review and rate a book after successful registration on the platform.</p>
-
+                    <p><b>Technologies Used: </b>C#, ASP.NET, Entity Framework Core, SQLServer, JWT, JQuery, Bootstrap</p>
                     <div className="techs">
                         <i className="fab fa-html5"></i>
                         <i className="fab fa-css3-alt"></i>
