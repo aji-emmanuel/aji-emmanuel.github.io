@@ -1,0 +1,36 @@
+#about {
+  position: relative;
+  width: 100%;
+  background-color: var(--main-to-dark-color);
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.about-header {
+  align-items: center;
+  width: 100%;
+}
+
+#about .about-body {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+#about .about-text {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 2rem;
+}
+#about .about-text span {
+  color: var(--blue-black);
+  font-weight: bolder;
+}
+.about-header .section-title span {
+  color: var(--blue-white);
+}
+
+@media (max-width: 1080px) {
+  #about .about-content .about-body .about-text {
+    font-size: 17px;
+  }
+}

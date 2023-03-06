@@ -1,0 +1,23 @@
+.theme {
+  position: fixed;
+  right: 0;
+  top: calc(50% - 20px);
+  height: 40px;
+  width: 40px;
+  z-index: 1200;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  text-align: center;
+}
+
+.theme.light {
+  background-color: #2b2c2f;
+}
+
+.theme i {
+  line-height: 40px;
+}
