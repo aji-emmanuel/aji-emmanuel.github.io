@@ -39,7 +39,7 @@ const About = () => {
                 in the most <span>innovative</span> and <span>efficient</span> manner possible.
             </p>
         </div>
-        <hr />
+        <hr id="contactScroll"/>
     </section>
   );
 };

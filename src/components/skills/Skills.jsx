@@ -39,7 +39,7 @@ const Skills = () => {
     };
 
   return (
-    <section className="features section-padding" id="skills" data-aos="fade-up">
+    <section id="skills" className="features section-padding"  data-aos="fade-up">
         <div className="pb">
             <div className="row justify-content-center">
                 <div className="col-lg-8">
@@ -127,7 +127,7 @@ const Skills = () => {
                 </Slider>
             </div>
         </div>
-        <hr />
+        <hr id="projectScroll"/>
     </section>
   );
 };

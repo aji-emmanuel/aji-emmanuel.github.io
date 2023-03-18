@@ -43,7 +43,7 @@ const Home = () => {
                             growth that is profitable, environmentally responsible and socially 
                             relevant while having the scope to develop my own skills.
                         </p>
-                        <p> Do you have one of such opportunities? <a href="#contact" id="home-contact">Contact&nbsp;me!</a></p>
+                        <p id="skillScroll"> Do you have one of such opportunities? <a href="#contact" id="home-contact">Contact&nbsp;me!</a></p>
                     </div>
                 </div>
 

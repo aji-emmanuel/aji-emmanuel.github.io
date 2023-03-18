@@ -17,7 +17,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <section className="slider-container" id="projects" data-aos="fade-up">
+        <section id="projects" className="slider-container"  data-aos="fade-up">
 
             <div className="section-title">
                 <h2>Selected <span>Projects</span></h2>
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
 
                     <div className="card-btns">
-                        <a href="https://www.hotelier.ng" className="play-btn" target="_blank" rel="noreferrer">
+                        <a href="https://apthotelsng.onrender.com" className="play-btn" target="_blank" rel="noreferrer">
                             <i className="fas fa-globe"></i>
                             View Site
                         </a>
@@ -104,34 +104,6 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="slider-box aos-init aos-animate" data-aos="fade-up">
-                <div className="slider-img">
-                    <img src={gitFinder} alt="poster" />
-                </div>
-                <div className="slider-details">
-                    <strong>Git User Finder</strong>
-                    <p>This was the very first app that I built while learning React, implementing Context and Reducer Hooks. It is used to search for GitHub users, using their usernames.</p>
-                    <p><b>Technologies Used: </b>ReactJs, Axios, Context API, Bootstrap</p>
-                    <div className="techs">
-                        <i className="fa-brands fa-react"></i>
-                        <i className="fa-brands fa-js"></i>
-                        <i className="fa-brands fa-html5"></i>
-                        <i className="fab fa-css3-alt"></i>
-                    </div>
-
-                    <div className="card-btns">
-                        <a href="https://github.com/aji-emmanuel/My-GitHubFinder" className="trailer-btn" target="_blank" rel="noreferrer">
-                            <i className="fas fa-code"></i>
-                            View Code
-                        </a>
-                        <a href="https://mygituserfinder.netlify.app/" className="play-btn" target="_blank" rel="noreferrer">
-                            <i className="fas fa-globe" target="_blank"></i>
-                            View Site
-                        </a>
-                    </div>
-                </div>
-            </div>
-
             <div className="slider-box aos-init aos-animate" data-aos="fade-right">
                 <div className="slider-img">
                     <img src={bookly} alt="poster" />
@@ -161,7 +133,36 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <hr />
+
+            <div className="slider-box aos-init aos-animate" data-aos="fade-up">
+                <div className="slider-img">
+                    <img src={gitFinder} alt="poster" />
+                </div>
+                <div className="slider-details">
+                    <strong>Git User Finder</strong>
+                    <p>This was the very first app that I built while learning React, implementing Context and Reducer Hooks. It is used to search for GitHub users, using their usernames.</p>
+                    <p><b>Technologies Used: </b>ReactJs, Axios, Context API, Bootstrap</p>
+                    <div className="techs">
+                        <i className="fa-brands fa-react"></i>
+                        <i className="fa-brands fa-js"></i>
+                        <i className="fa-brands fa-html5"></i>
+                        <i className="fab fa-css3-alt"></i>
+                    </div>
+
+                    <div className="card-btns">
+                        <a href="https://github.com/aji-emmanuel/My-GitHubFinder" className="trailer-btn" target="_blank" rel="noreferrer">
+                            <i className="fas fa-code"></i>
+                            View Code
+                        </a>
+                        <a href="https://mygituserfinder.netlify.app/" className="play-btn" target="_blank" rel="noreferrer">
+                            <i className="fas fa-globe" target="_blank"></i>
+                            View Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr id="aboutScroll"/>
 
         </section>
     );
